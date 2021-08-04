@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Celo-Dice-Betting-Game/static/css/main.b5031725.chunk.css",
+    "main.js": "/Celo-Dice-Betting-Game/static/js/main.e94f7e5b.chunk.js",
+    "main.js.map": "/Celo-Dice-Betting-Game/static/js/main.e94f7e5b.chunk.js.map",
+    "runtime-main.js": "/Celo-Dice-Betting-Game/static/js/runtime-main.e69293c9.js",
+    "runtime-main.js.map": "/Celo-Dice-Betting-Game/static/js/runtime-main.e69293c9.js.map",
+    "static/css/2.c55ce1f2.chunk.css": "/Celo-Dice-Betting-Game/static/css/2.c55ce1f2.chunk.css",
+    "static/js/2.647577a5.chunk.js": "/Celo-Dice-Betting-Game/static/js/2.647577a5.chunk.js",
+    "static/js/2.647577a5.chunk.js.map": "/Celo-Dice-Betting-Game/static/js/2.647577a5.chunk.js.map",
+    "index.html": "/Celo-Dice-Betting-Game/index.html",
+    "static/css/2.c55ce1f2.chunk.css.map": "/Celo-Dice-Betting-Game/static/css/2.c55ce1f2.chunk.css.map",
+    "static/css/main.b5031725.chunk.css.map": "/Celo-Dice-Betting-Game/static/css/main.b5031725.chunk.css.map",
+    "static/js/2.647577a5.chunk.js.LICENSE.txt": "/Celo-Dice-Betting-Game/static/js/2.647577a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e69293c9.js",
+    "static/css/2.c55ce1f2.chunk.css",
+    "static/js/2.647577a5.chunk.js",
+    "static/css/main.b5031725.chunk.css",
+    "static/js/main.e94f7e5b.chunk.js"
+  ]
+}
