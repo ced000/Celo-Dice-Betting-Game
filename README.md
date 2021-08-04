@@ -7,7 +7,7 @@ Contributors
 
 Contributors:
 [IMEF-FEMI](https://github.com/IMEF-FEMI) [IMEF-FEMI](https://github.com/IMEF-FEMI)
-[https://github.com/devmdavidson) [https://github.com/devmdavidson)
+[devmdavidson](https://github.com/devmdavidson)
 
 # Getting Started with Create React App
 
