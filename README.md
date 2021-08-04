@@ -4,7 +4,7 @@ This project is a simple celo  Game dice game built using React, In order to pla
 If the user guesses right he earns double his stake, else he looses his staked amount.
 
 #Demo 
-[https://imef-femi.github.io/Celo-Dice-Betting-Game/](https://github.com/facebook/create-react-app).
+[https://imef-femi.github.io/Celo-Dice-Betting-Game/](https://imef-femi.github.io/Celo-Dice-Betting-Game/)
 
 # Getting Started with Create React App
 
