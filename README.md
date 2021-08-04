@@ -2,9 +2,12 @@ CELO DICE BETTING GAME
 This project is a simple celo  Game dice game built using React, In order to play the game, a player has to guess the output of a die roll and add their STAKE(Betting amount) 
 
 If the user guesses right he earns double his stake, else he looses his staked amount.
+Contributors 
+#Demo[https://imef-femi.github.io/Celo-Dice-Betting-Game/](https://imef-femi.github.io/Celo-Dice-Betting-Game/)
 
-#Demo 
-[https://imef-femi.github.io/Celo-Dice-Betting-Game/](https://imef-femi.github.io/Celo-Dice-Betting-Game/)
+Contributors:
+[IMEF-FEMI](https://github.com/IMEF-FEMI) [IMEF-FEMI](https://github.com/IMEF-FEMI)
+[https://github.com/devmdavidson) [https://github.com/devmdavidson)
 
 # Getting Started with Create React App
 
