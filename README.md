@@ -5,8 +5,7 @@ If the user guesses right he earns double his stake, else he looses his staked a
 Contributors 
 #Demo[https://imef-femi.github.io/Celo-Dice-Betting-Game/](https://imef-femi.github.io/Celo-Dice-Betting-Game/)
 
-Contributors:
-[IMEF-FEMI](https://github.com/IMEF-FEMI) [IMEF-FEMI](https://github.com/IMEF-FEMI) / [devmdavidson](https://github.com/devmdavidson)
+Contributors:[IMEF-FEMI](https://github.com/IMEF-FEMI) / [devmdavidson](https://github.com/devmdavidson)
 
 
 # Getting Started with Create React App
