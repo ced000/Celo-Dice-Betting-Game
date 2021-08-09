@@ -1,83 +1,84 @@
 [
-    {
-        "anonymous": false,
-        "inputs": [
-            {
-                "indexed": false,
-                "internalType": "uint256",
-                "name": "userGuess",
-                "type": "uint256"
-            },
-            {
-                "indexed": false,
-                "internalType": "uint256",
-                "name": "dieRollValue",
-                "type": "uint256"
-            }
-        ],
-        "name": "Game",
-        "type": "event"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "address",
-                "name": "",
-                "type": "address"
-            }
-        ],
-        "name": "balances",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "guessValue",
-                "type": "uint256"
-            },
-            {
-                "internalType": "uint256",
-                "name": "stakeAmount",
-                "type": "uint256"
-            }
-        ],
-        "name": "playGame",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "result",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "payable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "uint256",
-                "name": "mod",
-                "type": "uint256"
-            }
-        ],
-        "name": "randomMod",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    }
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "userGuess",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "dieRollValue",
+				"type": "uint256"
+			}
+		],
+		"name": "Game",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "fundContract",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getContractBal",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "guessValue",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "stakeAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "playGame",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "result",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "mod",
+				"type": "uint256"
+			}
+		],
+		"name": "randomMod",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
 ]

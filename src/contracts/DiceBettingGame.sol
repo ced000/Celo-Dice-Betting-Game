@@ -29,7 +29,6 @@ interface IERC20Token {
 contract DiceBettingGame {
     address internal cUsdTokenAddress =
         0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1;
-    mapping (address => uint256) public balances;
 
     event Game(
         uint256  userGuess,
@@ -58,15 +57,32 @@ contract DiceBettingGame {
          
         uint256 dieRollResult = randomMod(6);
         
-        // if user guessed right, send them double Their stake else they loose Their
+        // if user guessed right, send them double Their stake else they loose their stake.
         if(dieRollResult == guessValue){
-        
             IERC20Token(cUsdTokenAddress).transfer(
                 msg.sender,
                 stakeAmount * 2
             );
         }
+        
         emit Game(guessValue, dieRollResult);
         return dieRollResult;
+    }
+    
+    // These updated end of the contract lets you fund contract in the case of Insufficient balance.
+    // a modifier is used instead of a direct require function, just in case you decide to change the conditions to 
+    // a more decentralized liquidity provision method. 
+    modifier onlyOwner () {
+        require (msg.sender == tx.origin);
+        _;
+    }
+    
+    // call this function with some cUSD to fund contract. 
+    function fundContract() public payable onlyOwner {
+        
+    }
+    
+    function getContractBal() public returns(uint256) {
+        return address(this).balance;
     }
 } 

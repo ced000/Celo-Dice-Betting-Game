@@ -44,7 +44,7 @@ const DiceGame = ({ sides }) => {
 
   // constants
   const ERC20_DECIMALS = 18;
-  const DBGContractAddress = "0x727ed4FcB209C99826F7889986AB9Ce2be63bEF5";
+  const DBGContractAddress = "0x1d42a9325b61384d73F8b5E1b205f0dD47A45F79";
   const cUSDContractAddress = "0x874069Fa1Eb16D44d622F2e0Ca25eeA172369bC1";
 
   const { die, rolling, side } = dieState;
@@ -91,6 +91,7 @@ const DiceGame = ({ sides }) => {
     }
     setDieState((prevState) => ({ ...prevState, rolling: false }));
   };
+
   const approve = async (amount) => {
     //  allow contract to spend amount cusd
     const result = await cUSDContract.methods
@@ -168,6 +169,7 @@ const DiceGame = ({ sides }) => {
       displayNotification("⚠️ Please install the CeloExtensionWallet.");
     }
   };
+  
   const getBalance = async function () {
     displayNotification("⌛ Loading...");
     await window.celo.enable();
